@@ -1,6 +1,6 @@
 node('master') {
     stage("Fetch Source Code") {
-        git 'https://github.com/VMWare-Training-Oct2020/VMWare-Devops-Training-Oct2020.git'
+        git 'https://github.com/jz07/VMWare-Devops-Training-Oct2020/'
     }
     
     dir('Jenkins/3. Multi-Branch and Declarative Pipelines') {
@@ -16,7 +16,7 @@ node('master') {
             }
             
         }
-        printMessage('Pipeline Complete')
+        printMessage('Meri Baggi Mera Ghoda')
     }
 }
 
